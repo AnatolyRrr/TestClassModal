@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Class for Modal</title>
+</head>
+<body>
+    <button class="modal-msg__open">Открыть сообщение</button>
+    <button class="modal-form__open">Открыть форму</button>
+
+    <div class="modal-msg">
+        <div class="modal-msg__wrap">
+            <h1 class="modal-msg__text">Ты топчик!</h1>
+            <button class="modal-msg__close">Закрыть</button>
+        </div>
+    </div>
+
+    <div class="modal-form">
+        <div class="modal-form__wrap">
+            <h1 class="modal-form__text">Заполни форму</h1>
+            <button class="modal-form__close">Закрыть</button>
+            <label for="name">Имя:</label>
+            <input class="modal-form__name" type="text" id="name" name="name" placeholder="Введите имя">
+            <label for="email">Почта:</label>
+            <input class="modal-form__email" type="text" id="email" name="email">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
