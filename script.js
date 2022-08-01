@@ -17,9 +17,9 @@ class Modal {
 
 const modalMessage = new Modal('.modal-msg');
 
-const modalMsgOpen = document.querySelector('.modal-msg__open');
+const modalMessageOpen = document.querySelector('.modal-msg__open');
 
-modalMsgOpen.addEventListener('click', () => {
+modalMessageOpen.addEventListener('click', () => {
     modalMessage.show();
 })
 
